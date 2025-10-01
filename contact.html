@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <main>
+        <form action="/submit" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="contact">Contact</label>
+            <input type="tel" name="contact" id="contact">
+            <br>
+            <select name="sub" id="sub">
+                <option value="webdev">Web Development</option>
+                <option value="datebase">Database</option>
+                <option value="ai">Artificial Intelligence</option>
+            </select>
+            <br>
+            <label for="msg">Send Message</label>
+            <textarea name="msg" id="msg"></textarea>
+            <br>
+            <datalist id="cities">
+                <option value="Faisalabad">
+                <option value="Lahore">
+                <option value="Sialkot">
+                <option value="Narowal">
+                <option value="Islamabad">
+            </datalist>
+
+            <button type="submit">Sign up</button>
+        </form>
+        <fieldset>
+            <legend>Preferences</legend>
+            Theme <input type="color" value="#0ea5e9">
+            Difficulty <input type="range" min="0" max="10" value="7">
+        </fieldset>
+    </main>
+
+</body>
+
+</html>
