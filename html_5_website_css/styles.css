@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    color: black;
+}
+/* Header-styling */
+/* ------ ------- */
+    header{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 50px;
+        background: rgb(245, 190, 200);
+        /* position: fixed; */
+    }
+    nav ul{
+        display: flex;
+        gap: 18px;
+    }
+    nav ul li{
+        list-style: none;
+
+    }
+    nav ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    }
+    #logo{
+        color: rgb(39, 39, 128);
+        font-family: fantasy;
+        font-weight: 500;
+    }
+/* ------  -------*/
+/* Header-styling */
+
+
+
+/* Section-Styling */
+/* ------- ------- */
+
+
+/* main-articals */
+/* ---- -------- */
+.main-desc{
+    padding: 25px 0px;
+        width: 720px;
+    }
+    .main-desc h3{
+        font-size: 24px;
+    }
+    .articals{
+        display: flex !important;
+    }
+    .artical{
+        background: rgb(245, 190, 200);
+        width: 300px;
+        border: 2px solid rgb(255, 183, 196) !important;
+        border-radius: 8px;
+        margin: 20px 010px;
+        padding: 22px;
+
+    }
+    .artical ul li, .artical ol li {
+        line-height: 22px;
+    }
+    h3{
+        padding-bottom: 12px !important;
+/* ---- -------- */
+/* main-articals */
+
+
+
+    }
+    section h2{
+        font-size: 36px;
+        color: rgb(39, 39, 128);
+        font-family: fantasy;
+        font-weight: 300;
+    }
+    section{
+        width: 100%;
+        background: rgb(255, 217, 224);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    #user-registration{
+        color: rgb(39, 39, 128);
+        text-align: center;
+        font-family: fantasy;
+        font-weight: 500;
+        font-size: 52px;
+        display: block;
+    }
+
+
+    /* Field-Set */
+    /* ----- --- */
+    legend{
+        font-weight: 700;
+        font-size: larger;
+    }
+    p{
+        display: block;
+        line-height: 18px;
+        margin: 6px;
+    }
+    label{
+        font-size: 18px;
+        margin: 0px 25px;
+        /* text-align: end; */
+        display: inline-block;
+        width: 200px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    fieldset{
+        margin: 15px 0px;
+    }
+    .btn{
+        text-align: center;
+        background: #76a2ff;
+        width: 100px;
+        height: 30px;
+        border: #76a2ff;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    /* ----- --- */
+    /* Field-Set */
+
+
+    /* Table-Styling */
+    /* ----- ------- */
+    table{
+        width: 720px;
+        height: 135px;
+        border: 2px solid rgb(255, 183, 196) !important;
+    }
+    td,th{
+        padding: 8px;
+    }
+    /* ----- ------- */
+    /* Table-Styling */
+
+
+/* ------- ------- */
+/* Section-Styling */
+
+
+/* Contact-Us */
+/* ------- -- */
+    .contact { 
+        width: 692px;
+    }
+    .faqs{
+        width: 692px;
+        background: rgb(255, 183, 196);
+        padding: 14px ;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border: 2px solid rgb(255, 183, 196) !important;
+        border-radius: 4px;
+    }
+    
+/* ------- -- */
+/* Contact-Us */
+
+
+/* Footer-Styling */
+/* ------ ------ */
+    footer{
+        background: rgb(245, 190, 200);
+        margin-top: none;
+    }
+    .license{
+        margin-top: -6px;
+        text-align: center;
+        padding: 12px 0px;
+    }
+    .fnav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fnav ul li a{
+        font-size: 18px;
+    }
+/* ------ ------ */
+/* Footer-Styling */
